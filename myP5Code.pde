@@ -11,9 +11,44 @@ void draw(){
   strokeWeight(1);
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
+  //the ground
+  fill(48, 180, 72);
+  rect(0, 300, 400, 100);
   
+  //the sun
+  fill(234,199, 37);
+  ellipse(80, 64, 100, 100);
+  
+  //the snowman
+  fill(255,255,255);
+  ellipse(200, 300,150,150);
+  ellipse(200, 200, 100, 100);
+  ellipse(200, 120, 75, 75);
+  
+  //scarf
+  strokeWeight(20);
+  stroke(255,0,0)
+  line(170,155,230,155);
+line(175,155,165,220);
+  ellipse(177,115,15,15);
+ellipse(220,115, 15, 15);
+line(82,101,152,181);
+line(249,195,310,264);
+rect(150,82,250,);
 
-  
+//earmuffs attempt 
+stroke(225,0,0)
+strokeWeight(5);
+fill(0,0,0,0);
+arc(200,120, 75, 80, 3.14, 6.28)
+fill(255,0,0);
+strokeweight(1);
+
+//body buttons 
+fill(0,0,0);
+ellipse(198,175,5,5);
+ell
+
 
 }
 
