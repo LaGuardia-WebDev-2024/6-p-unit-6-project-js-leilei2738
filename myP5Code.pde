@@ -1,7 +1,7 @@
 //🟢Setup Procedure - Runs Once to Set The Canvas
 void setup() {
     size(400, 400); 
-    background(255,255,255,100);
+    background(63,189,252);
 }
 
 
@@ -12,12 +12,10 @@ void draw(){
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
   //the ground
-  fill(48, 180, 72);
+  fill(88, 121, 250);
   rect(0, 300, 400, 100);
   
-  //the sun
-  fill(234,199, 37);
-  ellipse(80, 64, 100, 100);
+ 
   
   //the snowman
   fill(255,255,255);
@@ -27,9 +25,10 @@ void draw(){
   
   //scarf
   strokeWeight(20);
-  stroke(255,0,0)
+ stroke(225,0,0)
   line(170,155,230,155);
 line(175,155,165,220);
+stroke(117,78,78)
   ellipse(177,115,15,15);
 ellipse(220,115, 15, 15);
 line(82,101,152,181);
@@ -47,7 +46,7 @@ strokeweight(1);
 //body buttons 
 fill(0,0,0);
 ellipse(198,175,5,5);
-ell
+
 
 
 }
